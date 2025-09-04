@@ -238,9 +238,9 @@ export default function WebDevPage() {
             <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
               <h4 className="font-semibold text-slate-900 mb-2">Functional Updates</h4>
               <div className="bg-slate-900 text-slate-100 p-3 rounded font-mono text-xs">
-                <span className="text-green-400">setCount</span>(prevCount =&gt; prevCount + 1); <span className="text-slate-400">// Based on previous value</span><br/>
-                <span className="text-green-400">setCount</span>(prev =&gt; !prev); <span className="text-slate-400">// Toggle boolean</span><br/>
-                <span className="text-green-400">setCount</span>(prev =&gt; prev * 2); <span className="text-slate-400">// Mathematical operations</span>
+                <span className="text-green-400">setCount</span>(prevCount =&gt; prevCount + 1); <span className="text-slate-400">{/* Based on previous value */}</span><br/>
+                <span className="text-green-400">setCount</span>(prev =&gt; !prev); <span className="text-slate-400">{/* Toggle boolean */}</span><br/>
+                <span className="text-green-400">setCount</span>(prev =&gt; prev * 2); <span className="text-slate-400">{/* Mathematical operations */}</span>
               </div>
             </div>
           </div>
@@ -323,7 +323,7 @@ export default function WebDevPage() {
           <h4 className="text-slate-300 mb-3">Starter Code Structure:</h4>
           <div className="space-y-2">
             <div><span className="text-blue-400">const</span> [todos, setTodos] = <span className="text-green-400">useState</span>([]);</div>
-            <div><span className="text-blue-400">const</span> [inputValue, setInputValue] = <span className="text-green-400">useState</span>('');</div>
+            <div><span className="text-blue-400">const</span> [inputValue, setInputValue] = <span className="text-green-400">useState</span>(&apos;&apos;);</div>
             <div className="text-slate-400">{/* todos = array of todo objects */}</div>
             <div className="text-slate-400">{/* inputValue = current text in input field */}</div>
           </div>

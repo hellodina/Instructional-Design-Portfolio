@@ -302,7 +302,7 @@ export default function CreativeCodingPage() {
         </h2>
         
         <div className="bg-slate-900 text-slate-100 p-6 rounded-lg font-mono text-sm">
-          <div className="text-slate-400 mb-4">// p5.js Starter Code for Interactive Art</div>
+          <div className="text-slate-400 mb-4">{/* p5.js Starter Code for Interactive Art */}</div>
           
           <div className="space-y-3">
             <div><span className="text-blue-400">function</span> <span className="text-green-400">setup</span>() {'{'}</div>

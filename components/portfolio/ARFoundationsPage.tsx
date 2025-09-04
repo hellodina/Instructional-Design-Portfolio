@@ -100,7 +100,7 @@ export default function ARFoundationsPage() {
                   <h4 className="font-semibold text-slate-900 mb-2">Process:</h4>
                   <ul className="space-y-1 text-slate-700 text-sm">
                     <li>• Export character assets in PNG (2D) or FBX/OBJ (3D) format</li>
-                    <li>• Import into Lens Studio's Assets panel</li>
+                    <li>• Import into Lens Studio&apos;s Assets panel</li>
                     <li>• Set up texture atlases for 2D sprites</li>
                     <li>• Configure material properties for 3D models</li>
                   </ul>
