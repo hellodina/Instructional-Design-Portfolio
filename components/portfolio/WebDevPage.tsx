@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Code, Target, BookOpen, CheckCircle, Play, Users, Clock, Zap, Lightbulb, Eye } from "lucide-react";
+import { Code, Target, BookOpen, CheckCircle, Play, Users, Clock, Zap, Lightbulb } from "lucide-react";
 
 export default function WebDevPage() {
   const [count, setCount] = useState(0);
@@ -16,7 +16,7 @@ export default function WebDevPage() {
           Intro to React Hooks: Making Web Pages Come to Life
         </h1>
         <p className="text-slate-600 text-lg">
-          Learn how to use React's useState hook to create interactive, dynamic web applications.
+          Learn how to use React&apos;s useState hook to create interactive, dynamic web applications.
         </p>
       </div>
 
@@ -50,7 +50,7 @@ export default function WebDevPage() {
         <ul className="space-y-2 text-slate-700">
           <li className="flex items-center gap-2">
             <CheckCircle className="w-4 h-4 text-green-500" />
-            Understand what state is and why it's important in React
+            Understand what state is and why it&apos;s important in React
           </li>
           <li className="flex items-center gap-2">
             <CheckCircle className="w-4 h-4 text-green-500" />
@@ -81,11 +81,11 @@ export default function WebDevPage() {
           <ul className="space-y-2 text-slate-700 text-sm">
             <li className="flex items-center gap-2">
               <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-              What makes a website feel "alive" and interactive?
+              What makes a website feel &quot;alive&quot; and interactive?
             </li>
             <li className="flex items-center gap-2">
               <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-              How do websites remember what you've done?
+              How do websites remember what you&apos;ve done?
             </li>
             <li className="flex items-center gap-2">
               <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
@@ -98,7 +98,7 @@ export default function WebDevPage() {
           <h3 className="font-semibold text-slate-900 mb-3">The Light Switch Analogy (10 minutes)</h3>
           <p className="text-slate-700 mb-4">
             Use the light switch analogy to explain state in React. The switch can be in two positions: ON or OFF. 
-            When you flip the switch, the light changes, and the switch "remembers" its current position.
+            When you flip the switch, the light changes, and the switch &quot;remembers&quot; its current position.
           </p>
           
           <div className="grid md:grid-cols-2 gap-4 text-sm">
@@ -128,8 +128,8 @@ export default function WebDevPage() {
             <div className="text-slate-400 mb-3">useState Hook Syntax:</div>
             <div className="space-y-2">
               <div><span className="text-blue-400">const</span> [count, setCount] = <span className="text-green-400">useState</span>(0);</div>
-              <div className="text-slate-400">// count = current value, setCount = function to update it</div>
-              <div className="text-slate-400">// 0 = initial value</div>
+              <div className="text-slate-400">{/* count = current value, setCount = function to update it */}</div>
+              <div className="text-slate-400">{/* 0 = initial value */}</div>
             </div>
           </div>
           
@@ -205,12 +205,12 @@ export default function WebDevPage() {
           <h4 className="text-slate-300 mb-3">Code Breakdown:</h4>
           <div className="space-y-2">
             <div><span className="text-blue-400">const</span> [count, setCount] = <span className="text-green-400">useState</span>(0);</div>
-            <div className="text-slate-400">// count = current value, setCount = function to update it</div>
-            <div className="text-slate-400">// 0 = initial value</div>
+            <div className="text-slate-400">{/* count = current value, setCount = function to update it */}</div>
+            <div className="text-slate-400">{/* 0 = initial value */}</div>
             <div className="mt-3">
               <span className="text-blue-400">onClick</span> handler with <span className="text-green-400">setCount</span> function
             </div>
-            <div className="text-slate-400">// When clicked, update count to current value + 1</div>
+            <div className="text-slate-400">{/* When clicked, update count to current value + 1 */}</div>
           </div>
         </div>
       </div>
@@ -229,9 +229,9 @@ export default function WebDevPage() {
             <div className="bg-purple-50 p-4 rounded-lg border border-purple-200">
               <h4 className="font-semibold text-slate-900 mb-2">Direct Value Updates</h4>
               <div className="bg-slate-900 text-slate-100 p-3 rounded font-mono text-xs">
-                <span className="text-green-400">setCount</span>(5); <span className="text-slate-400">// Set to specific value</span><br/>
-                <span className="text-green-400">setCount</span>(<span className="text-blue-400">false</span>); <span className="text-slate-400">// Boolean state</span><br/>
-                <span className="text-green-400">setCount</span>(<span className="text-orange-400">"Hello"</span>); <span className="text-slate-400">// String state</span>
+                <span className="text-green-400">setCount</span>(5); <span className="text-slate-400">{/* Set to specific value */}</span><br/>
+                <span className="text-green-400">setCount</span>(<span className="text-blue-400">false</span>); <span className="text-slate-400">{/* Boolean state */}</span><br/>
+                <span className="text-green-400">setCount</span>(<span className="text-orange-400">&quot;Hello&quot;</span>); <span className="text-slate-400">{/* String state */}</span>
               </div>
             </div>
             
@@ -324,8 +324,8 @@ export default function WebDevPage() {
           <div className="space-y-2">
             <div><span className="text-blue-400">const</span> [todos, setTodos] = <span className="text-green-400">useState</span>([]);</div>
             <div><span className="text-blue-400">const</span> [inputValue, setInputValue] = <span className="text-green-400">useState</span>('');</div>
-            <div className="text-slate-400">// todos = array of todo objects</div>
-            <div className="text-slate-400">// inputValue = current text in input field</div>
+            <div className="text-slate-400">{/* todos = array of todo objects */}</div>
+            <div className="text-slate-400">{/* inputValue = current text in input field */}</div>
           </div>
         </div>
       </div>

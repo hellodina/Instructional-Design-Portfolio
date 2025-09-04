@@ -1,4 +1,4 @@
-import { Bot, Target, Cpu, Zap, CheckCircle, ArrowRight, Code } from "lucide-react";
+import { Bot, Target, Cpu, CheckCircle, ArrowRight, Code } from "lucide-react";
 
 export default function RoboticsPage() {
   return (
@@ -246,18 +246,18 @@ export default function RoboticsPage() {
         </h2>
         
         <div className="bg-slate-900 text-slate-100 p-6 rounded-lg font-mono text-sm">
-          <div className="text-slate-400 mb-4">// Obstacle-Avoiding Robot Code</div>
+          <div className="text-slate-400 mb-4">{/* Obstacle-Avoiding Robot Code */}</div>
           
           <div className="space-y-3">
-            <div><span className="text-blue-400">// Pin definitions</span></div>
+            <div><span className="text-blue-400">{/* Pin definitions */}</span></div>
             <div><span className="text-blue-400">const int</span> TRIG_PIN = 9;</div>
             <div><span className="text-blue-400">const int</span> ECHO_PIN = 10;</div>
-            <div><span className="text-blue-400">const int</span> ENA = 5; <span className="text-slate-400">// Left motor speed</span></div>
-            <div><span className="text-blue-400">const int</span> ENB = 6; <span className="text-slate-400">// Right motor speed</span></div>
-            <div><span className="text-blue-400">const int</span> IN1 = 7; <span className="text-slate-400">// Left motor direction</span></div>
-            <div><span className="text-blue-400">const int</span> IN2 = 8; <span className="text-slate-400">// Left motor direction</span></div>
-            <div><span className="text-blue-400">const int</span> IN3 = 11; <span className="text-slate-400">// Right motor direction</span></div>
-            <div><span className="text-blue-400">const int</span> IN4 = 12; <span className="text-slate-400">// Right motor direction</span></div>
+            <div><span className="text-blue-400">const int</span> ENA = 5; <span className="text-slate-400">{/* Left motor speed */}</span></div>
+            <div><span className="text-blue-400">const int</span> ENB = 6; <span className="text-slate-400">{/* Right motor speed */}</span></div>
+            <div><span className="text-blue-400">const int</span> IN1 = 7; <span className="text-slate-400">{/* Left motor direction */}</span></div>
+            <div><span className="text-blue-400">const int</span> IN2 = 8; <span className="text-slate-400">{/* Left motor direction */}</span></div>
+            <div><span className="text-blue-400">const int</span> IN3 = 11; <span className="text-slate-400">{/* Right motor direction */}</span></div>
+            <div><span className="text-blue-400">const int</span> IN4 = 12; <span className="text-slate-400">{/* Right motor direction */}</span></div>
             
             <div className="mt-4">
               <span className="text-blue-400">void</span> <span className="text-green-400">setup</span>() {'{'}</div>

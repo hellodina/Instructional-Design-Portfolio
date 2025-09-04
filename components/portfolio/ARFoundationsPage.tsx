@@ -1,4 +1,4 @@
-import { Eye, Target, Layers, Code, CheckCircle, Star } from "lucide-react";
+import { Eye, Target, Code, CheckCircle, Star } from "lucide-react";
 
 export default function ARFoundationsPage() {
   return (
@@ -54,7 +54,7 @@ export default function ARFoundationsPage() {
           <h3 className="font-semibold text-slate-900 mb-3">Design Challenge</h3>
           <p className="text-slate-700 mb-4">
             Design a simple 2D or 3D character and use Lens Studio to turn it into an interactive AR face lens. 
-            Your character should have personality and respond to the user's facial expressions in creative ways.
+            Your character should have personality and respond to the user&apos;s facial expressions in creative ways.
           </p>
           
           <div className="bg-indigo-50 p-4 rounded-lg border border-indigo-200">
@@ -175,7 +175,7 @@ export default function ARFoundationsPage() {
             <div className="space-y-2">
               <div><span className="text-blue-400">script</span>.<span className="text-green-400">api</span>.onFaceTracking = <span className="text-blue-400">function</span>(face) {'{'}</div>
               <div className="ml-4"><span className="text-blue-400">if</span> (face.smile &gt; 0.7) {'{'}</div>
-              <div className="ml-8"><span className="text-green-400">playAnimation</span>(<span className="text-orange-400">"happy"</span>);</div>
+              <div className="ml-8"><span className="text-green-400">playAnimation</span>(<span className="text-orange-400">&quot;happy&quot;</span>);</div>
               <div className="ml-4">{'}'}</div>
               <div>{'}'}</div>
             </div>
@@ -186,7 +186,7 @@ export default function ARFoundationsPage() {
             <div className="space-y-2">
               <div><span className="text-blue-400">script</span>.<span className="text-green-400">api</span>.onFaceTracking = <span className="text-blue-400">function</span>(face) {'{'}</div>
               <div className="ml-4"><span className="text-blue-400">if</span> (face.eyebrows &gt; 0.8) {'{'}</div>
-              <div className="ml-8"><span className="text-green-400">playAnimation</span>(<span className="text-orange-400">"surprised"</span>);</div>
+              <div className="ml-8"><span className="text-green-400">playAnimation</span>(<span className="text-orange-400">&quot;surprised&quot;</span>);</div>
               <div className="ml-4">{'}'}</div>
               <div>{'}'}</div>
             </div>

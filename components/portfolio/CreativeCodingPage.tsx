@@ -1,4 +1,4 @@
-import { Palette, Target, Code, Image as ImageIcon, Sparkles, CheckCircle, Play, Users, Clock, BookOpen } from "lucide-react";
+import { Palette, Target, Code, Sparkles, CheckCircle, Play, Users, Clock, BookOpen } from "lucide-react";
 
 export default function CreativeCodingPage() {
   return (
@@ -159,8 +159,8 @@ export default function CreativeCodingPage() {
                   Built-in variables that track the current mouse position on the canvas.
                 </p>
                 <div className="bg-slate-900 text-slate-100 p-2 rounded text-xs font-mono">
-                  <span className="text-slate-400">// mouseX = horizontal position</span><br/>
-                  <span className="text-slate-400">// mouseY = vertical position</span><br/>
+                  <span className="text-slate-400">{/* mouseX = horizontal position */}</span><br/>
+                  <span className="text-slate-400">{/* mouseY = vertical position */}</span><br/>
                   <span className="text-green-400">ellipse</span>(mouseX, mouseY, 50, 50);
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function CreativeCodingPage() {
                 </p>
                 <div className="bg-slate-900 text-slate-100 p-2 rounded text-xs font-mono">
                   <span className="text-blue-400">let</span> r = <span className="text-green-400">map</span>(mouseX, 0, width, 0, 255);<br/>
-                  <span className="text-slate-400">// Maps mouseX from 0-width to 0-255</span>
+                  <span className="text-slate-400">{/* Maps mouseX from 0-width to 0-255 */}</span>
                 </div>
               </div>
             </div>
@@ -267,7 +267,7 @@ export default function CreativeCodingPage() {
         <div className="bg-white p-6 rounded-lg border border-pink-200">
           <h3 className="font-semibold text-slate-900 mb-3">Project Description</h3>
           <p className="text-slate-700 mb-4">
-            Students will create a dynamic, interactive art piece that responds to the user's mouse movements. 
+            Students will create a dynamic, interactive art piece that responds to the user&apos;s mouse movements. 
             The artwork should change colors, shapes, or patterns based on cursor position, creating a unique 
             visual experience for each user interaction.
           </p>
@@ -312,19 +312,19 @@ export default function CreativeCodingPage() {
             
             <div className="mt-3">
               <span className="text-blue-400">function</span> <span className="text-green-400">draw</span>() {'{'}</div>
-            <div className="ml-4"><span className="text-slate-400">// Clear background with transparency for trails</span></div>
+            <div className="ml-4"><span className="text-slate-400">{/* Clear background with transparency for trails */}</span></div>
             <div className="ml-4"><span className="text-green-400">background</span>(220, 10);</div>
             <div className="ml-4"></div>
-            <div className="ml-4"><span className="text-slate-400">// Map mouse position to color values</span></div>
+            <div className="ml-4"><span className="text-slate-400">{/* Map mouse position to color values */}</span></div>
             <div className="ml-4"><span className="text-blue-400">let</span> r = <span className="text-green-400">map</span>(mouseX, 0, width, 0, 255);</div>
             <div className="ml-4"><span className="text-blue-400">let</span> g = <span className="text-green-400">map</span>(mouseY, 0, height, 0, 255);</div>
             <div className="ml-4"><span className="text-blue-400">let</span> b = <span className="text-green-400">map</span>(mouseX + mouseY, 0, width + height, 0, 255);</div>
             <div className="ml-4"></div>
-            <div className="ml-4"><span className="text-slate-400">// Set fill color based on mouse position</span></div>
+            <div className="ml-4"><span className="text-slate-400">{/* Set fill color based on mouse position */}</span></div>
             <div className="ml-4"><span className="text-green-400">fill</span>(r, g, b);</div>
             <div className="ml-4"><span className="text-green-400">noStroke</span>();</div>
             <div className="ml-4"></div>
-            <div className="ml-4"><span className="text-slate-400">// Draw interactive elements</span></div>
+            <div className="ml-4"><span className="text-slate-400">{/* Draw interactive elements */}</span></div>
             <div className="ml-4"><span className="text-green-400">ellipse</span>(mouseX, mouseY, 50, 50);</div>
             <div>{'}'}</div>
           </div>

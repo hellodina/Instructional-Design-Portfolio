@@ -16,7 +16,7 @@ export default function HomePage() {
         </h1>
         
         <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-          I'm passionate about creating engaging, hands-on learning experiences that bridge the gap between 
+          I&apos;m passionate about creating engaging, hands-on learning experiences that bridge the gap between 
           technology and creativity. My curriculum designs focus on practical application, interactive learning, 
           and real-world problem-solving.
         </p>
@@ -31,7 +31,7 @@ export default function HomePage() {
         
         <div className="bg-white p-6 rounded-lg border border-purple-200">
           <p className="text-slate-700 text-lg leading-relaxed">
-            I believe that learning is most meaningful when it's creative, hands-on, and personally relevant. 
+            I believe that learning is most meaningful when it&apos;s creative, hands-on, and personally relevant. 
             My goal as an instructional designer and educator is to empower learners of all ages to explore, 
             experiment, and create while developing technical and critical thinking skills. I design experiences 
             that are engaging, interactive, and encourage curiosity, collaboration, and problem-solving.
